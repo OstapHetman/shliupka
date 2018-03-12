@@ -31,6 +31,15 @@
     }
     .contact {
         padding-bottom: 30px;
+        position: relative;
+        &:before {
+            content: '';
+            width: 3px;
+            background-color: #c7dee5;
+            position: absolute;
+            height: 92%;
+            left: -3.5%;
+        }
         a {
             font-family: "Museo1";
             font-weight: bold;
@@ -54,6 +63,7 @@
                     font-weight: bold;
                     font-size: 17px;
                     color: $mainTextColor !important;
+                    text-decoration: unset;
                 }
             }
         }

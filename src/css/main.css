@@ -21,38 +21,163 @@
 button.gradient {
   font-family: "Open Sans", sans-serif;
   background: #35cdc8;
-  background: linear-gradient(120deg, #35cdc8, #45bad0, #259cc1);
+  background: linear-gradient(to right, #35cdc8, #259cc1);
   color: #fff;
   font-size: 16px;
   letter-spacing: 1px;
   border-radius: 10px;
-  border: unset; }
+  border: unset;
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 3s ease infinite;
+  -moz-animation: Gradient 3s ease infinite;
+  animation: Gradient 3s ease infinite; }
   button.gradient:active {
     background: #35cdc8; }
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
 
 button.gradient-2 {
   font-family: "Open Sans", sans-serif;
   background: #84dbf0;
-  background: linear-gradient(120deg, #84dbf0, #49cad5, #2ad0d0);
+  background: linear-gradient(to right, #84dbf0, #2ad0d0);
   color: #fff;
   font-size: 16px;
   letter-spacing: 1px;
   border-radius: 10px;
-  border: unset; }
+  border: unset;
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 3s ease infinite;
+  -moz-animation: Gradient 3s ease infinite;
+  animation: Gradient 3s ease infinite; }
   button.gradient-2:active {
     background: #35cdc8; }
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
 
 button.gradient-3 {
   font-family: "Museo2";
   background: #047a9d;
-  background: linear-gradient(120deg, #047a9d, #1da0c5, #36cbf5);
+  background: linear-gradient(to right, #047a9d, #36cbf5);
   color: #fff;
   font-size: 15px;
   letter-spacing: 1px;
   border-radius: 10px;
-  border: unset; }
+  border: unset;
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 3s ease infinite;
+  -moz-animation: Gradient 3s ease infinite;
+  animation: Gradient 3s ease infinite; }
   button.gradient-3:active {
     background: #35cdc8; }
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+#googleMap .modal-dialog {
+  top: 20%; }
+  #googleMap .modal-dialog .modal-header {
+    background-color: #35cdc8; }
+    #googleMap .modal-dialog .modal-header h4 {
+      font-family: "Museo0";
+      color: #fff;
+      font-size: 19px; }
+    #googleMap .modal-dialog .modal-header .close {
+      color: #fff; }
+  #googleMap .modal-dialog .modal-body {
+    padding: 0; }
+
+.scrolltop {
+  display: none;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 20px;
+  right: 10px; }
+  .scrolltop .scroll {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background: #089999;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    margin: 0 0 0 0;
+    cursor: pointer;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s; }
+    .scrolltop .scroll .fa {
+      font-size: 30px;
+      color: white;
+      transition: 0.5s;
+      -moz-transition: 0.5s;
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s; }
 
 .hover-underline {
   position: relative; }
@@ -77,6 +202,8 @@ nav.navbar {
   nav.navbar ul.navbar-nav li {
     font-family: "Museo2";
     font-size: 20px; }
+    nav.navbar ul.navbar-nav li:nth-last-child(2) {
+      margin-right: 115px; }
     nav.navbar ul.navbar-nav li a {
       color: #35cdc8; }
 
@@ -94,7 +221,8 @@ header {
     color: #35cdc8; }
   header p {
     font-size: 25px;
-    color: #bbbbbc; }
+    color: #bbbbbc;
+    padding-bottom: 80px; }
   header button.gradient {
     font-size: 30px;
     font-family: "Museo1"; }
@@ -112,7 +240,8 @@ header {
       text-align: center;
       max-width: 80%;
       margin: 0 auto;
-      font-weight: 500; }
+      font-weight: 500;
+      padding-bottom: 0; }
   header .relative-block {
     position: absolute;
     left: 0;
@@ -144,7 +273,8 @@ header {
       font-size: 15px;
       max-width: 80%;
       margin: 0 auto;
-      padding-top: 20px; }
+      padding-top: 20px;
+      padding-bottom: 0; }
     header .form input {
       margin-top: 20px;
       margin-bottom: 20px;
@@ -225,7 +355,8 @@ header {
     max-width: 80%;
     margin: 0 auto;
     padding-top: 35px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+    min-height: 340px; }
     #additional-services .services-item div img {
       max-width: 128px;
       display: block;
@@ -239,6 +370,118 @@ header {
     font-family: "Museo1";
     font-size: 21px;
     font-weight: bold; }
+
+#about {
+  margin-top: 30px;
+  background-color: #f1f1f1;
+  border-top: 4px #35cdc8 solid;
+  border-bottom: 4px #35cdc8 solid;
+  padding-top: 95px;
+  padding-bottom: 95px; }
+  #about h1 {
+    font-family: "Museo2";
+    font-size: 31px;
+    color: #35cdc8; }
+  #about h3 {
+    font-family: "Museo1";
+    font-size: 15px;
+    color: #a7a8a8;
+    padding-bottom: 32px;
+    font-weight: bold; }
+  #about p.about {
+    font-size: 15px;
+    font-family: "Museo0";
+    color: #101010;
+    font-weight: bold; }
+  #about p.recomendation {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 15px;
+    font-family: "Museo0";
+    color: #35cdc8;
+    max-width: 60%;
+    font-weight: bold; }
+  #about button {
+    font-family: "Museo1";
+    font-size: 21px; }
+
+#steps {
+  padding-top: 95px;
+  padding-bottom: 60px; }
+  #steps h1.head {
+    color: #35cdc8;
+    font-family: "Museo2";
+    font-size: 45px;
+    margin-bottom: 0; }
+  #steps .step-block,
+  #steps .step-img {
+    margin-top: 120px; }
+  #steps .step-img img {
+    border: 1px #bfeceb solid; }
+  #steps .step-block {
+    border: 3px #35cdc8 solid; }
+    #steps .step-block p {
+      font-family: "Museo2";
+      color: #35cdc8;
+      font-size: 23px; }
+    #steps .step-block .step-number {
+      padding-left: 15px; }
+      #steps .step-block .step-number img {
+        width: 105px;
+        height: auto;
+        margin-left: 15px; }
+    #steps .step-block .step-item h1 {
+      font-size: 143px;
+      font-family: "Museo2";
+      color: #ecf0f2; }
+    #steps .step-block button {
+      font-size: 21px;
+      font-family: "Museo2"; }
+  #steps .get-q {
+    font-size: 35px;
+    font-family: "Museo2"; }
+  #steps .first-step-block {
+    position: relative; }
+    #steps .first-step-block:before {
+      content: '';
+      width: 206px;
+      background-color: #35cdc8;
+      height: 3px;
+      position: absolute;
+      left: -55.62%;
+      top: 30%;
+      color: #35cdc8; }
+  #steps .first-step-img {
+    position: relative; }
+    #steps .first-step-img:after {
+      content: '';
+      width: 206px;
+      background-color: #35cdc8;
+      height: 3px;
+      position: absolute;
+      right: -33.5%;
+      top: 60%;
+      color: #35cdc8; }
+  #steps .second-step-img:before {
+    content: '';
+    width: 206px;
+    background-color: #35cdc8;
+    height: 3px;
+    position: absolute;
+    left: -33.5%;
+    top: 60%;
+    color: #35cdc8; }
+  #steps .second-step-block {
+    position: relative; }
+    #steps .second-step-block:after {
+      content: '';
+      width: 206px;
+      background-color: #35cdc8;
+      height: 3px;
+      position: absolute;
+      right: -55.62%;
+      top: 30%;
+      color: #35cdc8; }
 
 #online-q {
   background-color: #f9f8f8;
@@ -337,40 +580,6 @@ header {
     font-family: 'Open Sans', sans-serif;
     font-size: 35px; }
 
-#about {
-  margin-top: 30px;
-  background-color: #f1f1f1;
-  border-top: 4px #35cdc8 solid;
-  border-bottom: 4px #35cdc8 solid;
-  padding-top: 95px;
-  padding-bottom: 95px; }
-  #about h1 {
-    font-family: "Museo2";
-    font-size: 31px;
-    color: #35cdc8; }
-  #about h3 {
-    font-family: "Museo1";
-    font-size: 15px;
-    color: #a7a8a8;
-    padding-bottom: 32px;
-    font-weight: bold; }
-  #about p.about {
-    font-size: 15px;
-    font-family: "Museo0";
-    color: #101010;
-    font-weight: bold; }
-  #about p.recomendation {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    font-size: 15px;
-    font-family: "Museo0";
-    color: #35cdc8;
-    max-width: 60%;
-    font-weight: bold; }
-  #about button {
-    font-family: "Museo1";
-    font-size: 21px; }
-
 #contacts {
   background-color: #f2f2f2;
   border-top: 5px #35cdc8 solid;
@@ -398,7 +607,15 @@ header {
     font-size: 17px;
     color: #089999; }
   #contacts .contact {
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+    position: relative; }
+    #contacts .contact:before {
+      content: '';
+      width: 3px;
+      background-color: #c7dee5;
+      position: absolute;
+      height: 92%;
+      left: -3.5%; }
     #contacts .contact a {
       font-family: "Museo1";
       font-weight: bold;
@@ -419,7 +636,8 @@ header {
           font-family: "Museo1";
           font-weight: bold;
           font-size: 17px;
-          color: #35cdc8 !important; }
+          color: #35cdc8 !important;
+          text-decoration: unset; }
   #contacts a {
     font-family: "Museo1";
     font-weight: bold;

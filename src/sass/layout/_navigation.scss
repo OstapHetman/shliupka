@@ -4,6 +4,9 @@ nav.navbar {
         li {
             font-family: "Museo2";
             font-size: 20px;
+            &:nth-last-child(2) {
+                margin-right: 115px;
+            }
             a {
                 color: $mainTextColor;
             }

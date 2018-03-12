@@ -1,7 +1,7 @@
 button.gradient {
     font-family: "Open Sans", sans-serif;
     background: #35cdc8;
-    background: linear-gradient(120deg, rgba(53, 205, 200, 1), rgba(69, 186, 208, 1), rgba(37, 156, 193, 1));
+    background: linear-gradient(to right, rgba(53, 205, 200, 1), rgba(37, 156, 193, 1));
     color: #fff;
     font-size: 16px;
     letter-spacing: 1px;
@@ -9,13 +9,50 @@ button.gradient {
     border: unset;
     &:active {
         background: #35cdc8;
+    }
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 3s ease infinite;
+    -moz-animation: Gradient 3s ease infinite;
+    animation: Gradient 3s ease infinite;
+    @-webkit-keyframes Gradient {
+        0% {
+            background-position: 0% 50%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0% 50%
+        }
+    }
+    @-moz-keyframes Gradient {
+        0% {
+            background-position: 0% 50%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0% 50%
+        }
+    }
+    @keyframes Gradient {
+        0% {
+            background-position: 0% 50%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0% 50%
+        }
     }
 }
 
 button.gradient-2 {
     font-family: "Open Sans", sans-serif;
     background: #84dbf0;
-    background: linear-gradient(120deg, #84dbf0, #49cad5, #2ad0d0);
+    background: linear-gradient(to right, #84dbf0, #2ad0d0);
     color: #fff;
     font-size: 16px;
     letter-spacing: 1px;
@@ -24,12 +61,49 @@ button.gradient-2 {
     &:active {
         background: #35cdc8;
     }
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 3s ease infinite;
+    -moz-animation: Gradient 3s ease infinite;
+    animation: Gradient 3s ease infinite;
+    @-webkit-keyframes Gradient {
+        0% {
+            background-position: 0% 50%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0% 50%
+        }
+    }
+    @-moz-keyframes Gradient {
+        0% {
+            background-position: 0% 50%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0% 50%
+        }
+    }
+    @keyframes Gradient {
+        0% {
+            background-position: 0% 50%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0% 50%
+        }
+    }
 }
 
 button.gradient-3 {
     font-family: "Museo2";
     background: #047a9d;
-    background: linear-gradient(120deg, #047a9d, #1da0c5, #36cbf5);
+    background: linear-gradient(to right, #047a9d, #36cbf5);
     color: #fff;
     font-size: 15px;
     letter-spacing: 1px;
@@ -37,5 +111,42 @@ button.gradient-3 {
     border: unset;
     &:active {
         background: #35cdc8;
+    }
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 3s ease infinite;
+    -moz-animation: Gradient 3s ease infinite;
+    animation: Gradient 3s ease infinite;
+    @-webkit-keyframes Gradient {
+        0% {
+            background-position: 0% 50%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0% 50%
+        }
+    }
+    @-moz-keyframes Gradient {
+        0% {
+            background-position: 0% 50%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0% 50%
+        }
+    }
+    @keyframes Gradient {
+        0% {
+            background-position: 0% 50%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0% 50%
+        }
     }
 }

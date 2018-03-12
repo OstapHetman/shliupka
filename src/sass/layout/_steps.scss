@@ -1,0 +1,101 @@
+#steps {
+    padding-top: 95px;
+    padding-bottom: 60px;
+    h1.head {
+        color: $mainTextColor;
+        font-family: "Museo2";
+        font-size: 45px;
+        margin-bottom: 0;
+    }
+    .step-block,
+    .step-img {
+        margin-top: 120px;
+    }
+    .step-img {
+        img {
+            border: 1px #bfeceb solid;
+        }
+    }
+    .step-block {
+        border: 3px #35cdc8 solid;
+        p {
+            font-family: "Museo2";
+            color: $mainTextColor;
+            font-size: 23px;
+        }
+        .step-number {
+            padding-left: 15px;
+            img {
+                width: 105px;
+                height: auto;
+                margin-left: 15px;
+            }
+        }
+        .step-item {
+            h1 {
+                font-size: 143px;
+                font-family: "Museo2";
+                color: #ecf0f2;
+            }
+        }
+        button {
+            font-size: 21px;
+            font-family: "Museo2";
+        }
+    }
+    .get-q {
+        font-size: 35px;
+        font-family: "Museo2";
+    }
+    .first-step-block {
+        position: relative;
+        &:before {
+            content: '';
+            width: 206px;
+            background-color: #35cdc8;
+            height: 3px;
+            position: absolute;
+            left: -55.62%;
+            top: 30%;
+            color: #35cdc8;
+        }
+    }
+    .first-step-img {
+        position: relative;
+        &:after {
+            content: '';
+            width: 206px;
+            background-color: #35cdc8;
+            height: 3px;
+            position: absolute;
+            right: -33.5%;
+            top: 60%;
+            color: #35cdc8;
+        }
+    }
+    .second-step-img {
+        &:before {
+            content: '';
+            width: 206px;
+            background-color: #35cdc8;
+            height: 3px;
+            position: absolute;
+            left: -33.5%;
+            top: 60%;
+            color: #35cdc8;
+        }
+    }
+    .second-step-block {
+        position: relative;
+        &:after {
+            content: '';
+            width: 206px;
+            background-color: #35cdc8;
+            height: 3px;
+            position: absolute;
+            right: -55.62%;
+            top: 30%;
+            color: #35cdc8;
+        }
+    }
+}

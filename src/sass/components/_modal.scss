@@ -1,0 +1,19 @@
+#googleMap {
+    .modal-dialog {
+        top: 20%;
+        .modal-header {
+            background-color: $mainTextColor;
+            h4 {
+                font-family: "Museo0";
+                color: #fff;
+                font-size: 19px;
+            }
+            .close {
+                color: #fff;
+            }
+        }
+        .modal-body {
+            padding: 0;
+        }
+    }
+}
