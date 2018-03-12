@@ -83,7 +83,8 @@ nav.navbar {
 header {
   font-family: "Museo2";
   background-color: #f2f3f5;
-  padding-top: 90px; }
+  padding-top: 90px;
+  min-height: 1040px; }
   header h1 {
     color: #35cdc8;
     font-size: 68px;
@@ -112,6 +113,14 @@ header {
       max-width: 80%;
       margin: 0 auto;
       font-weight: 500; }
+  header .relative-block {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0; }
   header .youtube {
     margin-top: 100px; }
     header .youtube iframe {
@@ -166,7 +175,7 @@ header {
       font-size: 21px; }
 
 #plans {
-  margin-top: 100px;
+  margin-top: 250px;
   font-family: "Museo2"; }
   #plans h1 {
     font-size: 48px;
@@ -199,3 +208,11 @@ header {
     #plans .desription p {
       font-family: "MuseoSansCyrl";
       color: #35cdc8; }
+
+#about {
+  margin-top: 30px;
+  background-color: #f1f1f1;
+  border-top: 4px #35cdc8 solid;
+  border-bottom: 4px #35cdc8 solid;
+  padding-top: 95px;
+  padding-bottom: 95px; }

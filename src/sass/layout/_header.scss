@@ -2,6 +2,7 @@ header {
     font-family: "Museo2";
     background-color: $headerBg;
     padding-top: 90px;
+    min-height: 1040px;
     h1 {
         color: $mainTextColor;
         font-size: 68px;
@@ -37,6 +38,15 @@ header {
             margin: 0 auto;
             font-weight: 500;
         }
+    }
+    .relative-block {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+        padding-right: 0;
     }
     // YOUTUBE
     .youtube {
