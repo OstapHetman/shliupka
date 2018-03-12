@@ -1,0 +1,105 @@
+header {
+    font-family: "Museo2";
+    background-color: $headerBg;
+    padding-top: 90px;
+    h1 {
+        color: $mainTextColor;
+        font-size: 68px;
+        margin-bottom: 0;
+    }
+    h5 {
+        font-size: 42px;
+        color: $mainTextColor;
+    }
+    p {
+        font-size: 25px;
+        color: #bbbbbc;
+    }
+    button.gradient {
+        font-size: 30px;
+        font-family: "Museo1";
+    }
+    // FEATURE ITEMS
+    .feature-item {
+        padding-top: 50px;
+        font-family: 'Open Sans', sans-serif;
+        img {
+            max-width: 50px;
+            display: block;
+            margin: 0 auto;
+            padding-bottom: 33px;
+        }
+        p {
+            color: $mainTextColor;
+            font-size: 20px;
+            text-align: center;
+            max-width: 80%;
+            margin: 0 auto;
+            font-weight: 500;
+        }
+    }
+    // YOUTUBE
+    .youtube {
+        margin-top: 100px;
+        iframe {
+            width: 100%;
+            height: 355px;
+            border: 8px $borderClr solid;
+            border-radius: 10px;
+        }
+    }
+    .form {
+        margin-top: 100px;
+        font-family: "Museo2";
+        background-color: $formBg;
+        border-radius: 10px;
+        h2 {
+            color: #fff;
+            font-size: 34px;
+            padding-top: 40px;
+            padding-bottom: 20px;
+            margin-bottom: 0;
+        }
+        p {
+            color: #f3f0f0;
+            font-size: 15px;
+            max-width: 80%;
+            margin: 0 auto;
+            padding-top: 20px;
+        }
+        input {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: unset;
+            border-radius: 30px;
+            padding: 12px 25px;
+            &::-webkit-input-placeholder {
+                /* Chrome/Opera/Safari */
+                font-family: "Museo0";
+                color: $placeholder;
+                font-size: 15;
+            }
+            &::-moz-placeholder {
+                /* Firefox 19+ */
+                font-family: "Museo0";
+                color: $placeholder;
+                font-size: 15;
+            }
+            &:-ms-input-placeholder {
+                /* IE 10+ */
+                font-family: "Museo0";
+                color: $placeholder;
+                font-size: 15;
+            }
+            &:-moz-placeholder {
+                /* Firefox 18- */
+                font-family: "Museo0";
+                color: $placeholder;
+                font-size: 15;
+            }
+        }
+        button {
+            font-size: 21px;
+        }
+    }
+}

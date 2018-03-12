@@ -1,0 +1,12 @@
+nav.navbar {
+    background-color: $headerBg;
+    ul.navbar-nav {
+        li {
+            font-family: "Museo2";
+            font-size: 20px;
+            a {
+                color: $mainTextColor;
+            }
+        }
+    }
+}

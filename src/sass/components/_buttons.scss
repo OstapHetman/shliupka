@@ -1,0 +1,27 @@
+button.gradient {
+    font-family: "Open Sans", sans-serif;
+    background: #35cdc8;
+    background: linear-gradient(120deg, rgba(53, 205, 200, 1), rgba(69, 186, 208, 1), rgba(37, 156, 193, 1));
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    border: unset;
+    &:active {
+        background: #35cdc8;
+    }
+}
+
+button.gradient-2 {
+    font-family: "Open Sans", sans-serif;
+    background: #84dbf0;
+    background: linear-gradient(120deg, #84dbf0, #49cad5, #2ad0d0);
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    border: unset;
+    &:active {
+        background: #35cdc8;
+    }
+}

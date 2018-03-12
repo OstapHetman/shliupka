@@ -21,28 +21,30 @@
 <body>
 
     <!-- START NAVIGATION -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-md">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav ">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Формат работы</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Обо мне</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Шаги к успеху</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="tel:+380951780007">+38 (095) 178 00 07</a>
-                    <a class="nav-link" href="tel:+380951780007">+38 (073) 178 00 07</a>
-                    <button class="btn">Перезвоните мне</button>
-                </li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav align-items-center ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link hover-underline" href="#">Формат работы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover-underline" href="#">Обо мне</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover-underline" href="#">Шаги к успеху</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover-underline pb-0 " href="tel:+380951780007">+38 (095) 178 00 07</a>
+                        <a class="nav-link hover-underline pt-0 pb-0 mb-2" href="tel:+380951780007">+38 (073) 178 00 07</a>
+                        <button class="btn gradient d-block m-auto py-2">Перезвоните мне</button>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
     <!-- END NAVIGATION -->
@@ -53,13 +55,14 @@
             <div class="row">
                 <!-- Left -->
                 <div class="col-lg-6 col-xl-6">
-                    <img src="img/paper-head.png" alt="Paper">
+                    <img class="w-100" src="img/paper-head.png" alt="Paper">
                 </div>
                 <!-- Right -->
-                <div class="col-lg-6 col-xl-6">
-                    <h1>Снятие ареста с<span> недвижимого имущества</span></h1>
-                    <p>100% гарантия результата</p>
-                    <button class="btn">Узнай детали</button>
+                <div class="col-lg-6 col-xl-6 d-flex flex-column align-items-center justify-content-center">
+                    <h1 class="text-center">Снятие ареста с</h1>
+                    <h5 class="text-center">недвижимого имущества</h5>
+                    <p class="text-center">100% гарантия результата</p>
+                    <button class="btn gradient px-3 d-block">Узнай детали</button>
                 </div>
                 <!-- features blocks -->
                 <div class="col-lg-4 col-xl-4 feature-item">
@@ -78,15 +81,17 @@
                     <p>Наличие полного комплекта документации по предприятию
                     </p>
                 </div>
-
+            </div>
+            <div class="row">
                 <!-- Youtube and form blocks -->
-                <div class="col-lg-6 col-xl-6 youtube">
-                    <iframe width="100%" height="340" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                <div class="col-lg-6 col-xl-6 d-flex youtube">
+                    <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY">
                     </iframe>
                 </div>
                 <div class="col-lg-6 col-xl-6 form">
-                    <h2>Получите бесплатную инструкцию по разводу</h2>
-                    <p>Введите имя, телефон, E-mail, и мы Вам вышлем подробную инструкцию по разводу</p>
+                    <h2 class="text-center">Получите бесплатную инструкцию по разводу</h2>
+                    <img class="d-block m-auto" src="img/blue-line.png" alt="Blue line">
+                    <p class="text-center">Введите имя, телефон, E-mail, и мы Вам вышлем подробную инструкцию по разводу</p>
                     <form action="#">
                         <div class="row">
                             <div class="col-xl-4 col-lg-4">
@@ -104,7 +109,7 @@
                                     <input type="text" class="form-control" placeholder="Ваше E-mail">
                                 </div>
                             </div>
-                            <button type="submit" class="btn">Получить инструкцию</button>
+                            <button type="submit" class="btn gradient-2 d-block m-auto">Получить инструкцию</button>
                         </div>
                     </form>
                 </div>
