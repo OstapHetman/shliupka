@@ -244,6 +244,62 @@ header {
     font-family: "Museo1";
     font-size: 21px; }
 
+#contacts {
+  background-color: #f2f2f2;
+  border-top: 5px #35cdc8 solid;
+  border-bottom: 5px #35cdc8 solid;
+  padding-top: 67px;
+  padding-bottom: 67px; }
+  #contacts h1 {
+    font-family: "Museo2";
+    font-size: 45px;
+    color: #35cdc8; }
+  #contacts img.blue-line {
+    padding-top: 25px;
+    padding-bottom: 93px; }
+  #contacts img.team {
+    border: 9px #089999 solid;
+    border-radius: 10px;
+    max-width: 100%; }
+  #contacts h2 {
+    font-family: "Museo2";
+    font-size: 45px;
+    color: #35cdc8; }
+  #contacts p.address {
+    font-family: "Museo1";
+    font-weight: bold;
+    font-size: 17px;
+    color: #089999; }
+  #contacts .contact {
+    padding-bottom: 30px; }
+    #contacts .contact a {
+      font-family: "Museo1";
+      font-weight: bold;
+      font-size: 17px;
+      color: #444;
+      text-decoration: underline; }
+    #contacts .contact ul {
+      margin-top: 30px; }
+      #contacts .contact ul li {
+        font-family: "Museo1";
+        font-weight: bold;
+        font-size: 17px;
+        color: #35cdc8; }
+        #contacts .contact ul li img {
+          max-width: 50px;
+          margin-right: 15px; }
+        #contacts .contact ul li a {
+          font-family: "Museo1";
+          font-weight: bold;
+          font-size: 17px;
+          color: #35cdc8 !important; }
+  #contacts a {
+    font-family: "Museo1";
+    font-weight: bold;
+    font-size: 17px;
+    color: #444;
+    text-decoration: underline; }
+
 footer {
   background-color: #f2f2f2;
   padding-top: 100px; }

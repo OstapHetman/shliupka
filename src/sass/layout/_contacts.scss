@@ -1,0 +1,68 @@
+#contacts {
+    background-color: $contactsBg;
+    border-top: 5px $contactsBorder solid;
+    border-bottom: 5px $contactsBorder solid;
+    padding-top: 67px;
+    padding-bottom: 67px;
+    h1 {
+        font-family: "Museo2";
+        font-size: 45px;
+        color: $mainTextColor;
+    }
+    img.blue-line {
+        padding-top: 25px;
+        padding-bottom: 93px;
+    }
+    img.team {
+        border: 9px $imgBorder solid;
+        border-radius: 10px;
+        max-width: 100%;
+    }
+    h2 {
+        font-family: "Museo2";
+        font-size: 45px;
+        color: $mainTextColor;
+    }
+    p.address {
+        font-family: "Museo1";
+        font-weight: bold;
+        font-size: 17px;
+        color: $imgBorder;
+    }
+    .contact {
+        padding-bottom: 30px;
+        a {
+            font-family: "Museo1";
+            font-weight: bold;
+            font-size: 17px;
+            color: #444;
+            text-decoration: underline;
+        }
+        ul {
+            margin-top: 30px;
+            li {
+                font-family: "Museo1";
+                font-weight: bold;
+                font-size: 17px;
+                color: $mainTextColor;
+                img {
+                    max-width: 50px;
+                    margin-right: 15px;
+                }
+                a {
+                    font-family: "Museo1";
+                    font-weight: bold;
+                    font-size: 17px;
+                    color: $mainTextColor !important;
+                }
+            }
+        }
+    }
+    a {
+        font-family: "Museo1";
+        font-weight: bold;
+        font-size: 17px;
+        color: #444;
+        text-decoration: underline;
+    }
+}
