@@ -25,3 +25,17 @@ button.gradient-2 {
         background: #35cdc8;
     }
 }
+
+button.gradient-3 {
+    font-family: "Museo2";
+    background: #047a9d;
+    background: linear-gradient(120deg, #047a9d, #1da0c5, #36cbf5);
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    border: unset;
+    &:active {
+        background: #35cdc8;
+    }
+}

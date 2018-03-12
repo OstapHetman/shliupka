@@ -42,6 +42,18 @@ button.gradient-2 {
   button.gradient-2:active {
     background: #35cdc8; }
 
+button.gradient-3 {
+  font-family: "Museo2";
+  background: #047a9d;
+  background: linear-gradient(120deg, #047a9d, #1da0c5, #36cbf5);
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  border: unset; }
+  button.gradient-3:active {
+    background: #35cdc8; }
+
 .hover-underline {
   position: relative; }
   .hover-underline::after {
@@ -152,3 +164,38 @@ header {
         font-size: 15; }
     header .form button {
       font-size: 21px; }
+
+#plans {
+  margin-top: 100px;
+  font-family: "Museo2"; }
+  #plans h1 {
+    font-size: 48px;
+    color: #35cdc8;
+    padding-bottom: 52px; }
+  #plans .plans-item > div {
+    background: #31c9cd;
+    background: linear-gradient(120deg, #31c9cd, #2dbfd6, #3bc6ea);
+    border-radius: 10px;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 30px; }
+    #plans .plans-item > div h3 {
+      font-size: 21px;
+      color: #fff;
+      text-align: center;
+      padding-bottom: 20px; }
+    #plans .plans-item > div p {
+      font-size: 15px;
+      color: #e4e0e0;
+      margin: 0 auto;
+      max-width: 70%;
+      text-align: center;
+      padding-bottom: 20px; }
+    #plans .plans-item > div button {
+      font-size: 21px; }
+  #plans .desription {
+    padding-top: 60px; }
+    #plans .desription p {
+      font-family: "MuseoSansCyrl";
+      color: #35cdc8; }
