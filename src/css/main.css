@@ -84,7 +84,7 @@ header {
   font-family: "Museo2";
   background-color: #f2f3f5;
   padding-top: 90px;
-  min-height: 1040px; }
+  min-height: 1100px; }
   header h1 {
     color: #35cdc8;
     font-size: 68px;
@@ -207,7 +207,8 @@ header {
     padding-top: 60px; }
     #plans .desription p {
       font-family: "MuseoSansCyrl";
-      color: #35cdc8; }
+      color: #35cdc8;
+      font-weight: bold; }
 
 #about {
   margin-top: 30px;
@@ -216,3 +217,29 @@ header {
   border-bottom: 4px #35cdc8 solid;
   padding-top: 95px;
   padding-bottom: 95px; }
+  #about h1 {
+    font-family: "Museo2";
+    font-size: 31px;
+    color: #35cdc8; }
+  #about h3 {
+    font-family: "Museo1";
+    font-size: 15px;
+    color: #a7a8a8;
+    padding-bottom: 32px;
+    font-weight: bold; }
+  #about p.about {
+    font-size: 15px;
+    font-family: "Museo0";
+    color: #101010;
+    font-weight: bold; }
+  #about p.recomendation {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 15px;
+    font-family: "Museo0";
+    color: #35cdc8;
+    max-width: 60%;
+    font-weight: bold; }
+  #about button {
+    font-family: "Museo1";
+    font-size: 21px; }

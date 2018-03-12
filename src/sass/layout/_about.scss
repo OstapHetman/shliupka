@@ -5,4 +5,35 @@
     border-bottom: 4px $aboutBorder solid;
     padding-top: 95px;
     padding-bottom: 95px;
+    h1 {
+        font-family: "Museo2";
+        font-size: 31px;
+        color: $mainTextColor;
+    }
+    h3 {
+        font-family: "Museo1";
+        font-size: 15px;
+        color: #a7a8a8;
+        padding-bottom: 32px;
+        font-weight: bold;
+    }
+    p.about {
+        font-size: 15px;
+        font-family: "Museo0";
+        color: #101010;
+        font-weight: bold;
+    }
+    p.recomendation {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        font-size: 15px;
+        font-family: "Museo0";
+        color: $mainTextColor;
+        max-width: 60%;
+        font-weight: bold;
+    }
+    button {
+        font-family: "Museo1";
+        font-size: 21px;
+    }
 }
