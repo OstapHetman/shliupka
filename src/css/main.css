@@ -243,3 +243,27 @@ header {
   #about button {
     font-family: "Museo1";
     font-size: 21px; }
+
+footer {
+  background-color: #f2f2f2;
+  padding-top: 100px; }
+  footer ul li a {
+    font-family: "Museo2";
+    color: #35cdc8;
+    font-size: 20px;
+    padding-bottom: 5px; }
+    footer ul li a:hover {
+      text-decoration: unset;
+      color: #35cdc8; }
+  footer .bottom-footer {
+    padding-top: 67px;
+    padding-bottom: 67px; }
+    footer .bottom-footer p {
+      font-family: "Museo2";
+      color: #a9aaaa;
+      font-size: 20px; }
+    footer .bottom-footer img {
+      max-width: 50px;
+      height: auto; }
+    footer .bottom-footer a {
+      padding-left: 12px; }
