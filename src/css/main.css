@@ -240,6 +240,103 @@ header {
     font-size: 21px;
     font-weight: bold; }
 
+#online-q {
+  background-color: #f9f8f8;
+  padding-bottom: 35px;
+  padding-top: 100px; }
+  #online-q h1 {
+    color: #35cdc8;
+    font-family: "Museo2";
+    font-size: 45px; }
+  #online-q p {
+    margin: 0; }
+    #online-q p.under-head {
+      color: #35cdc8;
+      font-family: "Museo2";
+      font-size: 21px;
+      padding-bottom: 50px; }
+  #online-q .line-2 {
+    padding-top: 40px; }
+  #online-q .quest-item {
+    background-color: #ebebeb;
+    border-radius: 20px;
+    color: #35cdc8;
+    font-family: "MuseoSansCyrl";
+    font-size: 19px;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px; }
+  #online-q .admin {
+    text-align: center; }
+    #online-q .admin .first-name {
+      font-family: "Museo2";
+      font-size: 25px;
+      color: #666767; }
+    #online-q .admin .second-name {
+      font-family: "Museo2";
+      font-size: 25px;
+      color: #089999; }
+    #online-q .admin span {
+      font-family: "Museo1";
+      font-size: 17px;
+      color: #089999; }
+  #online-q .form-q {
+    font-family: "Open Sans", sans-serif;
+    background: #35cdc8;
+    background: linear-gradient(120deg, #35cdc8, #45bad0, #259cc1);
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    border: unset;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+  #online-q h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    max-width: 70%;
+    margin: 0 auto; }
+  #online-q form {
+    max-width: 500px;
+    margin: 0 auto; }
+    #online-q form input,
+    #online-q form textarea {
+      background-color: #f1f1f1;
+      border: unset;
+      border-radius: 30px;
+      padding: 12px 25px; }
+      #online-q form input::-webkit-input-placeholder,
+      #online-q form textarea::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        font-family: "Museo0";
+        color: #999898;
+        font-size: 15; }
+      #online-q form input::-moz-placeholder,
+      #online-q form textarea::-moz-placeholder {
+        /* Firefox 19+ */
+        font-family: "Museo0";
+        color: #999898;
+        font-size: 15; }
+      #online-q form input:-ms-input-placeholder,
+      #online-q form textarea:-ms-input-placeholder {
+        /* IE 10+ */
+        font-family: "Museo0";
+        color: #999898;
+        font-size: 15; }
+      #online-q form input:-moz-placeholder,
+      #online-q form textarea:-moz-placeholder {
+        /* Firefox 18- */
+        font-family: "Museo0";
+        color: #999898;
+        font-size: 15; }
+  #online-q button.get-q {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px; }
+
 #about {
   margin-top: 30px;
   background-color: #f1f1f1;
