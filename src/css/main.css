@@ -151,6 +151,94 @@ button.gradient-3 {
   #googleMap .modal-dialog .modal-body {
     padding: 0; }
 
+#footerModal {
+  top: 12%; }
+
+.mainModals {
+  top: 18%; }
+  .mainModals .modal-dialog {
+    font-family: "Museo3";
+    border: 11px #2ecccf solid;
+    border-radius: unset; }
+    .mainModals .modal-dialog .modal-content {
+      border: unset;
+      border-radius: unset; }
+      .mainModals .modal-dialog .modal-content .modal-header {
+        padding-bottom: 0;
+        border: unset; }
+        .mainModals .modal-dialog .modal-content .modal-header button.close {
+          opacity: 1; }
+          .mainModals .modal-dialog .modal-content .modal-header button.close span {
+            color: #009f9e;
+            font-size: 39px; }
+      .mainModals .modal-dialog .modal-content .modal-body h1 {
+        font-size: 29px;
+        color: #35cdc8; }
+      .mainModals .modal-dialog .modal-content .modal-body p {
+        font-family: "Museo1";
+        font-size: 16px;
+        color: #047a9d;
+        font-weight: bold; }
+      .mainModals .modal-dialog .modal-content .modal-body form {
+        margin-top: 25px; }
+        .mainModals .modal-dialog .modal-content .modal-body form .footer-btn {
+          margin-bottom: 70px; }
+          .mainModals .modal-dialog .modal-content .modal-body form .footer-btn button {
+            width: 305px;
+            font-size: 20px; }
+        .mainModals .modal-dialog .modal-content .modal-body form textarea {
+          resize: none; }
+        .mainModals .modal-dialog .modal-content .modal-body form input,
+        .mainModals .modal-dialog .modal-content .modal-body form textarea {
+          background-color: #f1f1f1;
+          border: unset;
+          border-radius: 30px;
+          padding: 12px 35px;
+          margin-top: 30px;
+          max-width: 315px;
+          margin: 0 auto; }
+          .mainModals .modal-dialog .modal-content .modal-body form input::-webkit-input-placeholder,
+          .mainModals .modal-dialog .modal-content .modal-body form textarea::-webkit-input-placeholder {
+            /* Chrome/Opera/Safari */
+            font-family: "Museo0";
+            color: #999898;
+            font-size: 15px; }
+          .mainModals .modal-dialog .modal-content .modal-body form input::-moz-placeholder,
+          .mainModals .modal-dialog .modal-content .modal-body form textarea::-moz-placeholder {
+            /* Firefox 19+ */
+            font-family: "Museo0";
+            color: #999898;
+            font-size: 15px; }
+          .mainModals .modal-dialog .modal-content .modal-body form input:-ms-input-placeholder,
+          .mainModals .modal-dialog .modal-content .modal-body form textarea:-ms-input-placeholder {
+            /* IE 10+ */
+            font-family: "Museo0";
+            color: #999898;
+            font-size: 15px; }
+          .mainModals .modal-dialog .modal-content .modal-body form input:-moz-placeholder,
+          .mainModals .modal-dialog .modal-content .modal-body form textarea:-moz-placeholder {
+            /* Firefox 18- */
+            font-family: "Museo0";
+            color: #999898;
+            font-size: 15px; }
+
+@media (min-width: 576px) {
+  #callMeModal .modal-dialog {
+    max-width: 480px;
+    margin: 1.75rem auto; } }
+
+@media screen and (max-width: 575px) {
+  .mainModals .modal-dialog {
+    border: unset; }
+    .mainModals .modal-dialog .modal-content .modal-body h1 {
+      font-size: 24px; }
+    .mainModals .modal-dialog .modal-content .modal-body p {
+      font-size: 11px; }
+    .mainModals .modal-dialog .modal-content .modal-body form .footer-btn button {
+      width: unset; }
+    .mainModals .modal-dialog .modal-content .modal-body form input {
+      max-width: unset; } }
+
 .scrolltop {
   display: none;
   width: 100%;
@@ -211,10 +299,10 @@ header {
   font-family: "Museo2";
   background-color: #f2f3f5;
   padding-top: 90px;
-  min-height: 1100px; }
+  min-height: 1000px; }
   header h1 {
     color: #35cdc8;
-    font-size: 68px;
+    font-size: 76px;
     margin-bottom: 0; }
   header h5 {
     font-size: 42px;
@@ -223,6 +311,8 @@ header {
     font-size: 25px;
     color: #bbbbbc;
     padding-bottom: 80px; }
+  header .paper img {
+    max-width: 500px; }
   header button.gradient {
     font-size: 30px;
     font-family: "Museo1"; }
@@ -305,7 +395,7 @@ header {
       font-size: 21px; }
 
 #plans {
-  margin-top: 250px;
+  margin-top: 300px;
   font-family: "Museo2"; }
   #plans h1 {
     font-size: 48px;
@@ -382,6 +472,8 @@ header {
     font-family: "Museo2";
     font-size: 31px;
     color: #35cdc8; }
+  #about img {
+    max-width: 195px; }
   #about h3 {
     font-family: "Museo1";
     font-size: 15px;
@@ -424,16 +516,15 @@ header {
       font-family: "Museo2";
       color: #35cdc8;
       font-size: 23px; }
-    #steps .step-block .step-number {
-      padding-left: 15px; }
-      #steps .step-block .step-number img {
-        width: 105px;
-        height: auto;
-        margin-left: 15px; }
+    #steps .step-block .step-number img {
+      width: 105px;
+      height: auto;
+      margin-left: 15px; }
     #steps .step-block .step-item h1 {
       font-size: 143px;
       font-family: "Museo2";
-      color: #ecf0f2; }
+      color: #ecf0f2;
+      margin-bottom: 0; }
     #steps .step-block button {
       font-size: 21px;
       font-family: "Museo2"; }
@@ -596,7 +687,7 @@ header {
   #contacts img.team {
     border: 9px #089999 solid;
     border-radius: 10px;
-    max-width: 100%; }
+    max-width: 95%; }
   #contacts h2 {
     font-family: "Museo2";
     font-size: 45px;
@@ -606,6 +697,8 @@ header {
     font-weight: bold;
     font-size: 17px;
     color: #089999; }
+  #contacts .right-part {
+    padding-left: 40px; }
   #contacts .contact {
     padding-bottom: 30px;
     position: relative; }
@@ -615,7 +708,7 @@ header {
       background-color: #c7dee5;
       position: absolute;
       height: 92%;
-      left: -3.5%; }
+      left: -8.2%; }
     #contacts .contact a {
       font-family: "Museo1";
       font-weight: bold;
@@ -662,9 +755,9 @@ footer {
     footer .bottom-footer p {
       font-family: "Museo2";
       color: #a9aaaa;
-      font-size: 20px; }
+      font-size: 16px; }
     footer .bottom-footer img {
-      max-width: 50px;
+      max-width: 35px;
       height: auto; }
     footer .bottom-footer a {
       padding-left: 12px; }

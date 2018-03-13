@@ -33,3 +33,18 @@ $(document).ready(function() {
         } // End if
     });
 });
+// Dynamical text
+window.onload = function() {
+    var title = document.getElementById('titleText'),
+        btn = document.getElementById('buttonSubmit'),
+        getBtns = document.getElementsByClassName('paste-btn'),
+        lengthBtns = getBtns.length;
+    for (let i = 0; i < lengthBtns; i++) {
+        getBtns[i].onclick = function() {
+            let titleText = this.getAttribute('data-title');
+            let btnText = this.getAttribute('data-btn');
+            title.innerText = titleText;
+            btn.innerText = btnText;
+        }
+    }
+}

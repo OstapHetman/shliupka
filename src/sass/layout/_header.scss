@@ -2,10 +2,10 @@ header {
     font-family: "Museo2";
     background-color: $headerBg;
     padding-top: 90px;
-    min-height: 1100px;
+    min-height: 1000px;
     h1 {
         color: $mainTextColor;
-        font-size: 68px;
+        font-size: 76px;
         margin-bottom: 0;
     }
     h5 {
@@ -16,6 +16,11 @@ header {
         font-size: 25px;
         color: #bbbbbc;
         padding-bottom: 80px;
+    }
+    .paper {
+        img {
+            max-width: 500px;
+        }
     }
     button.gradient {
         font-size: 30px;

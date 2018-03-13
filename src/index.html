@@ -30,18 +30,18 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav align-items-center ml-auto">
                     <li class="nav-item pr-5">
-                        <a class="nav-link hover-underline smooth" href="#plans">Формат работы</a>
+                        <a class="nav-link hover-underline smooth pr-0 pl-0" href="#plans">Формат работы</a>
                     </li>
                     <li class="nav-item pr-5">
-                        <a class="nav-link hover-underline smooth" href="#about">Обо мне</a>
+                        <a class="nav-link hover-underline smooth pr-0 pl-0" href="#about">Обо мне</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link hover-underline smooth" href="#steps">Шаги к успеху</a>
+                        <a class="nav-link hover-underline smooth pr-0 pl-0" href="#steps">Шаги к успеху</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link hover-underline pb-0 " href="tel:+380951780007">+38 (095) 178 00 07</a>
-                        <a class="nav-link hover-underline pt-0 pb-0 mb-2" href="tel:+380951780007">+38 (073) 178 00 07</a>
-                        <button class="btn gradient d-block m-auto py-2">Перезвоните мне</button>
+                        <a class="nav-link hover-underline pb-2 pr-0 pl-0" href="tel:+380951780007">+38 (095) 178 00 07</a>
+                        <a class="nav-link hover-underline pt-0 pb-2 mb-2 pr-0 pl-0" href="tel:+380951780007">+38 (073) 178 00 07</a>
+                        <button class="btn gradient d-block m-auto py-2 paste-btn" data-toggle="modal" data-target="#callMeModal" data-title="Заявка на звонок" data-btn="Оставить заявку">Перезвоните мне</button>
                     </li>
                 </ul>
             </div>
@@ -51,18 +51,18 @@
 
     <!-- START HEADER -->
     <header>
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <!-- Left -->
-                <div class="col-lg-6 col-xl-6">
-                    <img class="w-100" src="img/paper-head.png" alt="Paper">
+                <div class="col-lg-5 col-xl-5 paper">
+                    <img src="img/paper-head.png" alt="Paper">
                 </div>
                 <!-- Right -->
-                <div class="col-lg-6 col-xl-6 d-flex flex-column align-items-center justify-content-center">
-                    <h1 class="text-center">Снятие ареста с</h1>
-                    <h5 class="text-center">недвижимого имущества</h5>
+                <div class="col-lg-7 col-xl-7 d-flex flex-column align-items-center justify-content-center">
+                    <h1 class="text-center">Снятие ареста</h1>
+                    <h5 class="text-center">c недвижимого имущества</h5>
                     <p class="text-center">100% гарантия результата</p>
-                    <button class="btn gradient px-3 d-block">Узнай детали</button>
+                    <button class="btn gradient px-3 d-block paste-btn" data-toggle="modal" data-target="#callMeModal" data-title="Узнайте все детали" data-btn="Узнайте все детали">Узнай детали</button>
                 </div>
             </div>
             <div class="container">
@@ -115,7 +115,7 @@
                                     <input type="text" class="form-control" placeholder="Ваше E-mail">
                                 </div>
                             </div>
-                            <button type="submit" class="btn gradient-2 d-block m-auto">Получить инструкцию</button>
+                            <button type="submit" class="btn gradient-3 d-block m-auto">Получить инструкцию</button>
                         </div>
                     </form>
                 </div>
@@ -168,7 +168,7 @@
     <section id="about">
         <div class="container">
             <div class="row">
-                <div class="offset-1 col-xl-3 col-lg-3 d-flex align-items-center justify-content-center">
+                <div class="offset-1 col-xl-3 col-lg-3 d-flex align-items-center justify-content-end">
                     <img src="img/portret.png" alt="Portret">
                 </div>
                 <div class="offset-1 col-xl-7 col-lg-7">
@@ -176,7 +176,7 @@
                     <h3>Адвокат, владелец адвокатского бюро VARTOVI.</h3>
                     <p class="about mb-0">Понимаю как важно начинать бизнес с помощью квалифицированной юридической помощью. Я убежден, что первоначальный этап регистрации компании является залогом отсутствия проблем в дальнейшем, связанных с проверкой контролирующими органами.</p>
                     <p class="recomendation mb-0">Почему я рекомендую именно ООО: Открытие ООО предоставляет широкое поле для деятельности большому и среднему бизнесу.</p>
-                    <button class="btn gradient">Получить консультацию</button>
+                    <button class="btn gradient paste-btn" data-toggle="modal" data-target="#callMeModal" data-title="Получите консультацию" data-btn="Получить консультацию">Получить консультацию</button>
                 </div>
             </div>
         </div>
@@ -194,27 +194,23 @@
                 </div>
                 <div class="offset-lg-2 offset-xl-2 col-lg-4 col-xl-4 step-block first-step-block">
                     <div class="step-item">
-                        <div class="step-number d-flex align-items-center">
-                            <div>
-                                <h1>1</h1>
-                            </div>
-                            <div>
-                                <img src="img/step1-icon.png" alt="Step 1 Icon">
-                            </div>
+                        <div class="step-number d-flex align-items-center justify-content-center">
+                            <h1>1</h1>
+                            <img src="img/step1-icon.png" alt="Step 1 Icon">
                         </div>
                         <p class="text-center">Подписание договора и выдача нотариальной доверенности</p>
-                        <button class="btn gradient-2 d-block m-auto">Связаться с нами</button>
+                        <button class="btn gradient-2 d-block m-auto paste-btn" data-toggle="modal" data-target="#callMeModal" data-title="Свяжитесь с нами" data-btn="Связаться с нами">Связаться с нами</button>
                     </div>
                 </div>
                 <!-- STEP 2 -->
                 <div class="col-lg-4 col-xl-4 step-block second-step-block">
                     <div class="step-item">
-                        <div class="step-number d-flex align-items-center ">
+                        <div class="step-number d-flex align-items-center justify-content-center">
                             <h1>2</h1>
                             <img src="img/step2-icon.png" alt="Step 1 Icon">
                         </div>
                         <p class="text-center">Выполнение каждого пункта соглашения</p>
-                        <button class="btn gradient-2 d-block m-auto">Связаться с нами</button>
+                        <button class="btn gradient-2 d-block m-auto paste-btn" data-toggle="modal" data-target="#callMeModal" data-title="Свяжитесь с нами" data-btn="Связаться с нами">Связаться с нами</button>
                     </div>
                 </div>
                 <div class="offset-lg-2 offset-xl-2  col-lg-6 col-xl-6 step-img pr-0 second-step-img">
@@ -226,15 +222,15 @@
                 </div>
                 <div class="offset-lg-2 offset-xl-2 col-lg-4 col-xl-4 mb-5 step-block first-step-block">
                     <div class="step-item">
-                        <div class="step-number d-flex align-items-center">
+                        <div class="step-number d-flex align-items-center justify-content-center">
                             <h1>3</h1>
                             <img src="img/step3-icon.png" alt="Step 1 Icon">
                         </div>
                         <p class="text-center">Получение выписки про снятие ареста с имущества</p>
-                        <button class="btn gradient-2 d-block m-auto">Связаться с нами</button>
+                        <button class="btn gradient-2 d-block m-auto paste-btn" data-toggle="modal" data-target="#callMeModal" data-title="Свяжитесь с нами" data-btn="Связаться с нами">Связаться с нами</button>
                     </div>
                 </div>
-                <button class="btn m-auto get-q gradient-2">Снять арест с имущества</button>
+                <button class="btn m-auto get-q gradient-2 paste-btn" data-toggle="modal" data-target="#callMeModal" data-title="Снять арест с имушества" data-btn="Снять с ареста">Снять арест с имущества</button>
             </div>
         </div>
     </section>
@@ -351,7 +347,7 @@
             <h1 class="text-center">Снятие ареста в любой точке Украины</h1>
             <img class="d-block m-auto blue-line" src="img/line.png" alt="Line">
             <div class="row">
-                <div class="col-lg-6 col-xl-6 left-part d-flex align-items-center justify-content-center">
+                <div class="col-lg-6 col-xl-6 left-part d-flex align-items-center justify-content-lefy">
                     <img class="team" src="img/team.png" alt="Vartovi Team">
                 </div>
                 <!-- right part -->
@@ -384,27 +380,27 @@
                 </div>
                 <div class="col-lg-3 col-xl-3 d-flex justify-content-center ">
                     <ul class="list-unstyled pl-0 mb-0">
-                        <li><a class="hover-underline smooth" href="#navbarCollapse">- Главная</a></li>
-                        <li><a class="hover-underline smooth" href="#about">- Обо мне</a></li>
-                        <li><a class="hover-underline smooth" href="#plans">- Формат работы</a></li>
+                        <li><a class="hover-underline smooth pb-2" href="#navbarCollapse">- Главная</a></li>
+                        <li><a class="hover-underline smooth pb-2" href="#about">- Обо мне</a></li>
+                        <li><a class="hover-underline smooth pb-2" href="#plans">- Формат работы</a></li>
                         <li>
-                            <a class="hover-underline smooth" href="#steps">- Шаги к результату</a>
+                            <a class="hover-underline smooth pb-2" href="#steps">- Шаги к результату</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-lg-4 col-xl-4 d-flex justify-content-center ">
                     <ul class="list-unstyled pl-0 mb-0">
-                        <li><a class="hover-underline smooth" href="#additional-services">- Дополнительные услуги</a></li>
-                        <li><a class="hover-underline smooth" href="#contacts">- Связаться со мной лично</a></li>
+                        <li><a class="hover-underline smooth pb-2" href="#additional-services">- Дополнительные услуги</a></li>
+                        <li><a class="hover-underline smooth pb-2" href="#contacts">- Связаться со мной лично</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-xl-3 d-flex justify-content-center align-items-center flex-column">
                     <ul class="list-unstyled pl-0 mb-0">
-                        <li><a class="hover-underline" href="tel:+38 (067) 869 36 14">+38 (067) 869 36 14</a></li>
-                        <li class="mb-4"><a class="hover-underline" href="tel:+38 (067) 869 36 14">+38 (067) 869 36 14</a></li>
+                        <li><a class="hover-underline pb-2" href="tel:+38 (067) 869 36 14">+38 (067) 869 36 14</a></li>
+                        <li class="mb-4"><a class="hover-underline pb-2" href="tel:+38 (067) 869 36 14">+38 (067) 869 36 14</a></li>
                     </ul>
-                    <button class="btn gradient">Перезвоните мне</button>
+                    <button class="btn gradient paste-btn" data-toggle="modal" data-target="#callMeModal" data-title="Заявка на звонок" data-btn="Оставить заявку">Перезвоните мне</button>
                 </div>
             </div>
             <div class="bottom-footer">
@@ -436,6 +432,40 @@
         </div>
     </div>
     <!-- END MAP MODAL -->
+
+    <!-- START CALL-ME MODAL-->
+    <div class="modal fade mainModals" id="callMeModal" tabindex="-1" role="dialog" aria-labelledby="callMeModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <h1 class="text-center" id="titleText"></h1>
+                        <p class="text-center">Введите ваше имя и номер телефона, специалист компании свяжется с вами и ответит на ваши вопросы</p>
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="name" placeholder="Укажите имя">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="phone" placeholder="Укажите номер телефона">
+                            </div>
+                            <!-- <div class="form-check">
+                                    <input type="hiden" class="form-check-input" id="exampleCheck1">
+                                </div> -->
+                            <div class="mt-4 pt-2 footer-btn">
+                                <button type="submit" class="btn gradient-3 px-4 py-2 btn-shine main-btn d-block m-auto" id="buttonSubmit"></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END CALL ME MODAL -->
 
     <!-- START SCROLL TOP BTN -->
     <div class='scrolltop'>

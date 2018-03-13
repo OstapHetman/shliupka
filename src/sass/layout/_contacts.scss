@@ -16,7 +16,7 @@
     img.team {
         border: 9px $imgBorder solid;
         border-radius: 10px;
-        max-width: 100%;
+        max-width: 95%;
     }
     h2 {
         font-family: "Museo2";
@@ -29,6 +29,9 @@
         font-size: 17px;
         color: $imgBorder;
     }
+    .right-part {
+        padding-left: 40px;
+    }
     .contact {
         padding-bottom: 30px;
         position: relative;
@@ -38,7 +41,7 @@
             background-color: #c7dee5;
             position: absolute;
             height: 92%;
-            left: -3.5%;
+            left: -8.2%;
         }
         a {
             font-family: "Museo1";
