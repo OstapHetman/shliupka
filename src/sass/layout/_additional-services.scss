@@ -36,3 +36,40 @@
         }
     }
 }
+
+@media screen and (max-width: 991px) {
+    #additional-services {
+        .services-item {
+            margin-top: 35px;
+            div {
+                min-height: unset;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    #additional-services {
+        h1 {
+            font-size: 36px;
+            padding-bottom: unset;
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #additional-services {
+        .services-item div img {
+            max-width: 70px;
+        }
+        h1 {
+            font-size: 23px;
+            padding-bottom: unset;
+            br {
+                display: none;
+            }
+        }
+    }
+}

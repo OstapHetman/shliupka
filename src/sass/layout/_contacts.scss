@@ -79,3 +79,54 @@
         text-decoration: underline;
     }
 }
+
+@media screen and(max-width: 991px) {
+    #contacts {
+        h2,
+        p,
+        a {
+            text-align: center;
+            display: block;
+        }
+        img.team {
+            margin-bottom: 30px;
+        }
+        .contact a {
+            text-align: center;
+            display: block;
+        }
+        .contact a:last-child {
+            text-align: left;
+            display: inline;
+        }
+        .contact {
+            &:before {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 576px) {
+    #contacts {
+        h1 {
+            font-size: 30px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+        p.address {
+            font-size: 14px;
+        }
+        .contact {
+            ul li {
+                img {
+                    max-width: 35px;
+                }
+                a {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

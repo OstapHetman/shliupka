@@ -40,3 +40,34 @@
         font-size: 21px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    #about {
+        margin-top: unset;
+        h1,
+        h3 {
+            text-align: center;
+        }
+        button {
+            display: block;
+            margin: 0 auto;
+        }
+        img {
+            padding-bottom: 25px;
+        }
+        p.recomendation {
+            max-width: unset;
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #about {
+        h1 {
+            font-size: 26px;
+        }
+        img {
+            max-width: 150px;
+        }
+    }
+}

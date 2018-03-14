@@ -285,6 +285,18 @@ button.gradient-3 {
     transform: scaleX(1);
     transform-origin: bottom left; }
 
+#top-part {
+  background-color: #f2f3f5; }
+  #top-part ul li {
+    font-family: "Museo2";
+    font-size: 18px; }
+    #top-part ul li a {
+      color: #35cdc8; }
+
+@media screen and (min-width: 768px) {
+  #top-part {
+    display: none; } }
+
 nav.navbar {
   background-color: #f2f3f5; }
   nav.navbar ul.navbar-nav li {
@@ -294,6 +306,25 @@ nav.navbar {
       margin-right: 115px; }
     nav.navbar ul.navbar-nav li a {
       color: #35cdc8; }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  nav.navbar ul.navbar-nav li {
+    font-size: 16px; }
+    nav.navbar ul.navbar-nav li:nth-last-child(2) {
+      margin-right: 0; } }
+
+@media screen and (max-width: 767px) {
+  nav.navbar .navbar-brand img {
+    max-width: 80px; }
+  nav.navbar ul.navbar-nav li:nth-last-child(2) {
+    margin-right: 0; }
+  nav.navbar ul.navbar-nav li.phone-group {
+    display: none; }
+  nav.navbar .navbar-toggler:focus {
+    outline: unset; }
+  nav.navbar .navbar-toggler i {
+    color: #35cdc8;
+    font-size: 37px; } }
 
 header {
   font-family: "Museo2";
@@ -394,6 +425,64 @@ header {
     header .form button {
       font-size: 21px; }
 
+@media screen and (max-width: 1199px) {
+  header .feature-item p {
+    max-width: unset; } }
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  header {
+    min-height: 920px; }
+    header h1 {
+      font-size: 70px; }
+    header h5 {
+      font-size: 40px; }
+    header .paper img {
+      max-width: 400px; } }
+
+@media screen and (max-width: 991px) {
+  header {
+    padding-bottom: 50px;
+    padding-top: 30px; }
+    header .relative-block {
+      position: relative; }
+    header p {
+      padding-bottom: 20px; }
+    header .paper img {
+      max-width: 300px;
+      display: block;
+      margin: 0 auto; }
+    header .form {
+      margin-top: 50px;
+      padding-bottom: 40px; } }
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  header h1 {
+    font-size: 45px; }
+  header h5 {
+    font-size: 30px; } }
+
+@media screen and (max-width: 575px) {
+  header h1 {
+    font-size: 36px; }
+  header h5 {
+    font-size: 26px; }
+  header p {
+    font-size: 16px; }
+  header .feature-item p {
+    font-size: 16px; }
+  header .relative-block {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+  header .form {
+    margin-left: 15px;
+    margin-right: 15px; }
+    header .form h2 {
+      font-size: 24px; }
+    header .form p {
+      font-size: 13px; } }
+
 #plans {
   margin-top: 300px;
   font-family: "Museo2"; }
@@ -430,6 +519,25 @@ header {
       color: #35cdc8;
       font-weight: bold; }
 
+@media screen and (max-width: 768px) {
+  #plans {
+    margin-top: 50px;
+    padding-bottom: 50px; }
+    #plans h1 {
+      padding-bottom: 30px; }
+    #plans .plans-item {
+      margin-top: 35px; }
+      #plans .plans-item div h3 {
+        font-size: 18px; }
+      #plans .plans-item div p {
+        font-size: 13px; }
+    #plans .desription p br {
+      display: none; } }
+
+@media screen and (max-width: 575px) {
+  #plans h1 {
+    font-size: 33px; } }
+
 #additional-services {
   background-color: #35cdc8;
   padding-bottom: 95px;
@@ -460,6 +568,28 @@ header {
     font-family: "Museo1";
     font-size: 21px;
     font-weight: bold; }
+
+@media screen and (max-width: 991px) {
+  #additional-services .services-item {
+    margin-top: 35px; }
+    #additional-services .services-item div {
+      min-height: unset;
+      padding-left: 10px;
+      padding-right: 10px; } }
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #additional-services h1 {
+    font-size: 36px;
+    padding-bottom: unset; } }
+
+@media screen and (max-width: 575px) {
+  #additional-services .services-item div img {
+    max-width: 70px; }
+  #additional-services h1 {
+    font-size: 23px;
+    padding-bottom: unset; }
+    #additional-services h1 br {
+      display: none; } }
 
 #about {
   margin-top: 30px;
@@ -496,6 +626,26 @@ header {
   #about button {
     font-family: "Museo1";
     font-size: 21px; }
+
+@media screen and (max-width: 768px) {
+  #about {
+    margin-top: unset; }
+    #about h1,
+    #about h3 {
+      text-align: center; }
+    #about button {
+      display: block;
+      margin: 0 auto; }
+    #about img {
+      padding-bottom: 25px; }
+    #about p.recomendation {
+      max-width: unset; } }
+
+@media screen and (max-width: 575px) {
+  #about h1 {
+    font-size: 26px; }
+  #about img {
+    max-width: 150px; } }
 
 #steps {
   padding-top: 95px;
@@ -573,6 +723,112 @@ header {
       right: -55.62%;
       top: 30%;
       color: #35cdc8; }
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #steps .step-block p {
+    font-size: 18px; }
+  #steps .first-step-block {
+    position: relative; }
+    #steps .first-step-block:before {
+      content: '';
+      width: 177px;
+      left: -57%;
+      top: 30%; }
+  #steps .first-step-img {
+    position: relative; }
+    #steps .first-step-img:after {
+      width: 177px;
+      right: -33.5%;
+      top: 60%; }
+  #steps .second-step-img:before {
+    width: 177px;
+    left: -33.5%;
+    top: 60%; }
+  #steps .second-step-block {
+    position: relative; }
+    #steps .second-step-block:after {
+      width: 177px;
+      right: -55.62%;
+      top: 30%; } }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #steps h1.head {
+    font-size: 36px; }
+  #steps .step-block,
+  #steps .step-img {
+    margin-top: 50px; }
+  #steps .step-block .step-item h1 {
+    font-size: 90px; }
+  #steps .step-block .step-number img {
+    width: 70px; }
+  #steps .step-block p {
+    font-size: 14px; }
+  #steps .first-step-block:before {
+    display: none; }
+  #steps .first-step-img:after {
+    display: none; }
+  #steps .second-step-img:before {
+    display: none; }
+  #steps .second-step-block:after {
+    display: none; } }
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #steps h1.head {
+    font-size: 36px; }
+  #steps .step-block {
+    border: unset; }
+  #steps .step-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px #35cdc8 solid; }
+  #steps .step-block,
+  #steps .step-img {
+    margin-top: 50px; }
+  #steps .step-block .step-item h1 {
+    font-size: 90px; }
+  #steps .step-block .step-number img {
+    width: 70px; }
+  #steps .step-block p {
+    font-size: 14px; }
+  #steps .first-step-block:before {
+    display: none; }
+  #steps .first-step-img:after {
+    display: none; }
+  #steps .second-step-img:before {
+    display: none; }
+  #steps .second-step-block:after {
+    display: none; } }
+
+@media screen and (max-width: 575px) {
+  #steps h1.head {
+    font-size: 28px; }
+    #steps h1.head br {
+      display: none; }
+  #steps .step-block {
+    border: unset; }
+  #steps .get-q {
+    font-size: 18px; }
+  #steps .step-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px #35cdc8 solid; }
+  #steps .step-block,
+  #steps .step-img {
+    margin-top: 50px; }
+  #steps .step-block .step-item h1 {
+    font-size: 90px; }
+  #steps .step-block .step-number img {
+    width: 70px; }
+  #steps .step-block p {
+    font-size: 14px; }
+  #steps .first-step-block:before {
+    display: none; }
+  #steps .first-step-img:after {
+    display: none; }
+  #steps .second-step-img:before {
+    display: none; }
+  #steps .second-step-block:after {
+    display: none; } }
 
 #online-q {
   background-color: #f9f8f8;
@@ -671,6 +927,25 @@ header {
     font-family: 'Open Sans', sans-serif;
     font-size: 35px; }
 
+@media screen and (max-width: 991px) {
+  #online-q .first-name,
+  #online-q .second-name,
+  #online-q span {
+    text-align: left;
+    display: block; } }
+
+@media screen and (max-width: 576px) {
+  #online-q h1 {
+    font-size: 30px; }
+  #online-q p.under-header {
+    font-size: 16px; }
+  #online-q .quest-item p {
+    font-size: 13px; }
+  #online-q h3 {
+    max-width: unset; }
+  #online-q button.get-q {
+    font-size: 20px; } }
+
 #contacts {
   background-color: #f2f2f2;
   border-top: 5px #35cdc8 solid;
@@ -738,9 +1013,40 @@ header {
     color: #444;
     text-decoration: underline; }
 
+@media screen and (max-width: 991px) {
+  #contacts h2,
+  #contacts p,
+  #contacts a {
+    text-align: center;
+    display: block; }
+  #contacts img.team {
+    margin-bottom: 30px; }
+  #contacts .contact a {
+    text-align: center;
+    display: block; }
+  #contacts .contact a:last-child {
+    text-align: left;
+    display: inline; }
+  #contacts .contact:before {
+    display: none; } }
+
+@media screen and (max-width: 576px) {
+  #contacts h1 {
+    font-size: 30px; }
+  #contacts h2 {
+    font-size: 30px; }
+  #contacts p.address {
+    font-size: 14px; }
+  #contacts .contact ul li img {
+    max-width: 35px; }
+  #contacts .contact ul li a {
+    font-size: 14px; } }
+
 footer {
   background-color: #f2f2f2;
   padding-top: 100px; }
+  footer img.logo {
+    max-width: 120px; }
   footer ul li a {
     font-family: "Museo2";
     color: #35cdc8;
@@ -761,3 +1067,22 @@ footer {
       height: auto; }
     footer .bottom-footer a {
       padding-left: 12px; }
+
+@media screen and (max-width: 767px) {
+  footer {
+    padding-top: 30px; }
+    footer .bottom-footer {
+      padding-top: 25px;
+      padding-bottom: 25px; } }
+
+@media screen and (max-width: 575px) {
+  footer img.logo {
+    display: none; }
+  footer .phone-group {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  footer .bottom-footer p {
+    font-size: 13px; }
+  footer .bottom-footer img {
+    max-width: 30px; } }

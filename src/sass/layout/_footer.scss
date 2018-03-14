@@ -1,6 +1,9 @@
 footer {
     background-color: $footerBg;
     padding-top: 100px;
+    img.logo {
+        max-width: 120px;
+    }
     ul {
         li {
             a {
@@ -29,6 +32,37 @@ footer {
         }
         a {
             padding-left: 12px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    footer {
+        padding-top: 30px;
+        .bottom-footer {
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    footer {
+        img.logo {
+            display: none;
+        }
+        .phone-group {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .bottom-footer {
+            p {
+                font-size: 13px;
+            }
+            img {
+                max-width: 30px;
+            }
         }
     }
 }

@@ -99,3 +99,188 @@
         }
     }
 }
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    #steps {
+        .step-block p {
+            font-size: 18px;
+        }
+        .first-step-block {
+            position: relative;
+            &:before {
+                content: '';
+                width: 177px;
+                left: -57%;
+                top: 30%;
+            }
+        }
+        .first-step-img {
+            position: relative;
+            &:after {
+                width: 177px;
+                right: -33.5%;
+                top: 60%;
+            }
+        }
+        .second-step-img {
+            &:before {
+                width: 177px;
+                left: -33.5%;
+                top: 60%;
+            }
+        }
+        .second-step-block {
+            position: relative;
+            &:after {
+                width: 177px;
+                right: -55.62%;
+                top: 30%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #steps {
+        h1.head {
+            font-size: 36px;
+        }
+        .step-block,
+        .step-img {
+            margin-top: 50px;
+        }
+        .step-block .step-item h1 {
+            font-size: 90px;
+        }
+        .step-block .step-number img {
+            width: 70px;
+        }
+        .step-block p {
+            font-size: 14px;
+        }
+        .first-step-block {
+            &:before {
+                display: none;
+            }
+        }
+        .first-step-img {
+            &:after {
+                display: none;
+            }
+        }
+        .second-step-img {
+            &:before {
+                display: none;
+            }
+        }
+        .second-step-block {
+            &:after {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    #steps {
+        h1.head {
+            font-size: 36px;
+        }
+        .step-block {
+            border: unset;
+        }
+        .step-item {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border: 3px #35cdc8 solid;
+        }
+        .step-block,
+        .step-img {
+            margin-top: 50px;
+        }
+        .step-block .step-item h1 {
+            font-size: 90px;
+        }
+        .step-block .step-number img {
+            width: 70px;
+        }
+        .step-block p {
+            font-size: 14px;
+        }
+        .first-step-block {
+            &:before {
+                display: none;
+            }
+        }
+        .first-step-img {
+            &:after {
+                display: none;
+            }
+        }
+        .second-step-img {
+            &:before {
+                display: none;
+            }
+        }
+        .second-step-block {
+            &:after {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #steps {
+        h1.head {
+            font-size: 28px;
+            br {
+                display: none;
+            }
+        }
+        .step-block {
+            border: unset;
+        }
+        .get-q {
+            font-size: 18px;
+        }
+        .step-item {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border: 3px #35cdc8 solid;
+        }
+        .step-block,
+        .step-img {
+            margin-top: 50px;
+        }
+        .step-block .step-item h1 {
+            font-size: 90px;
+        }
+        .step-block .step-number img {
+            width: 70px;
+        }
+        .step-block p {
+            font-size: 14px;
+        }
+        .first-step-block {
+            &:before {
+                display: none;
+            }
+        }
+        .first-step-img {
+            &:after {
+                display: none;
+            }
+        }
+        .second-step-img {
+            &:before {
+                display: none;
+            }
+        }
+        .second-step-block {
+            &:after {
+                display: none;
+            }
+        }
+    }
+}
