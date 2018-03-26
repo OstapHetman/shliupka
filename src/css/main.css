@@ -58,7 +58,8 @@ button.gradient {
   100% {
     background-position: 0% 50%; } }
 
-button.gradient-2 {
+button.gradient-2,
+a.gradient-2 {
   font-family: "Open Sans", sans-serif;
   background: #84dbf0;
   background: linear-gradient(to right, #84dbf0, #2ad0d0);
@@ -71,7 +72,8 @@ button.gradient-2 {
   -webkit-animation: Gradient 3s ease infinite;
   -moz-animation: Gradient 3s ease infinite;
   animation: Gradient 3s ease infinite; }
-  button.gradient-2:active {
+  button.gradient-2:active,
+  a.gradient-2:active {
     background: #35cdc8; }
 
 @-webkit-keyframes Gradient {
@@ -150,6 +152,10 @@ button.gradient-3 {
       color: #fff; }
   #googleMap .modal-dialog .modal-body {
     padding: 0; }
+    #googleMap .modal-dialog .modal-body iframe {
+      width: 100%;
+      height: 450px;
+      border-width: 0px; }
 
 #footerModal {
   top: 12%; }
@@ -158,7 +164,6 @@ button.gradient-3 {
   top: 18%; }
   .mainModals .modal-dialog {
     font-family: "Museo3";
-    border: 11px #2ecccf solid;
     border-radius: unset; }
     .mainModals .modal-dialog .modal-content {
       border: unset;
@@ -239,6 +244,194 @@ button.gradient-3 {
     .mainModals .modal-dialog .modal-content .modal-body form input {
       max-width: unset; } }
 
+.modalPlans .modal-dialog .modal-content {
+  border-radius: unset;
+  border-top: 13px #65edf3 solid;
+  border-bottom: 13px #65edf3 solid;
+  border-left: unset;
+  border-right: unset; }
+  .modalPlans .modal-dialog .modal-content .modal-body {
+    font-family: "Museo1";
+    padding-left: 60px;
+    padding-right: 50px;
+    background-color: #f4f5f5; }
+    .modalPlans .modal-dialog .modal-content .modal-body .list-block {
+      border-bottom: 1.5px #65edf3 dashed;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      padding-right: 15px;
+      position: relative; }
+      .modalPlans .modal-dialog .modal-content .modal-body .list-block:nth-child(3) p {
+        font-weight: 900; }
+      .modalPlans .modal-dialog .modal-content .modal-body .list-block:nth-child(7) p {
+        font-weight: 900; }
+      .modalPlans .modal-dialog .modal-content .modal-body .list-block:after {
+        content: '';
+        border-left: 1.8px #65edf3 dashed;
+        height: 100%;
+        position: absolute;
+        right: 7%; }
+      .modalPlans .modal-dialog .modal-content .modal-body .list-block:nth-last-child(2) {
+        border-bottom: unset; }
+      .modalPlans .modal-dialog .modal-content .modal-body .list-block .right-block img {
+        max-width: 30px;
+        height: auto; }
+    .modalPlans .modal-dialog .modal-content .modal-body p {
+      font-size: 15px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.27;
+      letter-spacing: 1.2px;
+      text-align: left;
+      color: #414242;
+      text-transform: uppercase; }
+    .modalPlans .modal-dialog .modal-content .modal-body ol {
+      padding-left: 25px;
+      margin-bottom: 0; }
+      .modalPlans .modal-dialog .modal-content .modal-body ol li {
+        font-size: 15px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.27;
+        letter-spacing: 1.2px;
+        text-align: left;
+        color: #414242;
+        text-transform: uppercase; }
+    .modalPlans .modal-dialog .modal-content .modal-body .text-summary {
+      margin-top: 35px;
+      padding-top: 35px;
+      position: relative; }
+      .modalPlans .modal-dialog .modal-content .modal-body .text-summary:before {
+        content: "";
+        position: absolute;
+        left: 20%;
+        top: 0;
+        height: 1px;
+        width: 60%;
+        border-top: 2px #65edf3 dashed; }
+      .modalPlans .modal-dialog .modal-content .modal-body .text-summary P {
+        font-size: 15px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.27;
+        letter-spacing: 1.2px;
+        text-align: center;
+        color: #414242; }
+  .modalPlans .modal-dialog .modal-content .modal-footer {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 45px;
+    justify-content: space-between;
+    border-top: unset;
+    background-color: #efeeee; }
+    .modalPlans .modal-dialog .modal-content .modal-footer .plan-name h2 {
+      font-family: "Museo3";
+      font-size: 23px;
+      font-weight: 900;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.65;
+      letter-spacing: 1.8px;
+      text-align: left;
+      color: #2ecccf;
+      text-transform: uppercase; }
+    .modalPlans .modal-dialog .modal-content .modal-footer .prices {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .modalPlans .modal-dialog .modal-content .modal-footer .prices p {
+        font-family: "Museo3";
+        font-size: 40px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 0.95;
+        letter-spacing: 3.2px;
+        text-align: left;
+        color: #2ecccf; }
+      .modalPlans .modal-dialog .modal-content .modal-footer .prices button {
+        font-family: "Museo2";
+        font-size: 21px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 0.9;
+        letter-spacing: 1.7px;
+        text-align: center;
+        color: #ffffff;
+        padding: 12px 35px 10px 35px; }
+
+@media screen and (min-width: 992px) {
+  .modalPlans .modal-dialog {
+    min-width: 957px; } }
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .modalPlans .modal-dialog {
+    min-width: 760px; } }
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .modalPlans .modal-dialog {
+    max-width: 560px; }
+    .modalPlans .modal-dialog .modal-content .modal-body {
+      padding-left: 15px;
+      padding-right: 15px; }
+      .modalPlans .modal-dialog .modal-content .modal-body p {
+        font-size: 11px; }
+      .modalPlans .modal-dialog .modal-content .modal-body ol li {
+        font-size: 11px; }
+      .modalPlans .modal-dialog .modal-content .modal-body .list-block .right-block img {
+        max-width: 15px;
+        height: auto; }
+      .modalPlans .modal-dialog .modal-content .modal-body .text-summary p {
+        font-size: 11px; }
+    .modalPlans .modal-dialog .modal-content .modal-footer {
+      padding-left: 15px;
+      padding-right: 15px; }
+      .modalPlans .modal-dialog .modal-content .modal-footer .plan-name h2 {
+        font-size: 16px; }
+      .modalPlans .modal-dialog .modal-content .modal-footer .prices p {
+        font-size: 19px; }
+      .modalPlans .modal-dialog .modal-content .modal-footer .prices button {
+        padding-left: 7px;
+        padding-right: 7px;
+        font-size: 15px; } }
+
+@media screen and (max-width: 575px) {
+  .modalPlans .modal-dialog .modal-content .modal-body {
+    padding-left: 5px;
+    padding-right: 5px; }
+    .modalPlans .modal-dialog .modal-content .modal-body p {
+      font-size: 10px; }
+    .modalPlans .modal-dialog .modal-content .modal-body ol li {
+      font-size: 10px; }
+    .modalPlans .modal-dialog .modal-content .modal-body .list-block {
+      border-bottom: 1px #65edf3 dashed; }
+      .modalPlans .modal-dialog .modal-content .modal-body .list-block:after {
+        display: none; }
+      .modalPlans .modal-dialog .modal-content .modal-body .list-block .right-block img {
+        max-width: 15px;
+        height: auto; }
+    .modalPlans .modal-dialog .modal-content .modal-body .text-summary {
+      margin-top: 20px;
+      padding-top: 20px; }
+      .modalPlans .modal-dialog .modal-content .modal-body .text-summary p {
+        font-size: 11px; }
+  .modalPlans .modal-dialog .modal-content .modal-footer {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px; }
+    .modalPlans .modal-dialog .modal-content .modal-footer .plan-name h2 {
+      font-size: 16px; }
+    .modalPlans .modal-dialog .modal-content .modal-footer .prices p {
+      font-size: 19px; }
+    .modalPlans .modal-dialog .modal-content .modal-footer .prices button {
+      padding-left: 7px;
+      padding-right: 7px;
+      font-size: 15px; } }
+
 .scrolltop {
   display: none;
   width: 100%;
@@ -304,12 +497,25 @@ nav.navbar {
     font-size: 20px; }
     nav.navbar ul.navbar-nav li:nth-last-child(2) {
       margin-right: 115px; }
-    nav.navbar ul.navbar-nav li a {
+    nav.navbar ul.navbar-nav li.phone-group a {
       color: #35cdc8; }
+    nav.navbar ul.navbar-nav li a {
+      color: #000; }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
   nav.navbar ul.navbar-nav li {
     font-size: 16px; }
+    nav.navbar ul.navbar-nav li:nth-last-child(2) {
+      margin-right: 0; } }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  nav.navbar .navbar-brand img {
+    max-width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: block; }
+  nav.navbar ul.navbar-nav li {
+    font-size: 12.5px; }
     nav.navbar ul.navbar-nav li:nth-last-child(2) {
       margin-right: 0; } }
 
@@ -332,15 +538,15 @@ header {
   padding-top: 90px;
   min-height: 1000px; }
   header h1 {
-    color: #35cdc8;
+    color: #000;
     font-size: 76px;
     margin-bottom: 0; }
   header h5 {
     font-size: 42px;
-    color: #35cdc8; }
+    color: #000; }
   header p {
     font-size: 25px;
-    color: #bbbbbc;
+    color: #000;
     padding-bottom: 80px; }
   header .paper img {
     max-width: 500px; }
@@ -375,7 +581,8 @@ header {
     margin-top: 100px; }
     header .youtube iframe {
       width: 100%;
-      height: 355px;
+      height: 100%;
+      min-height: 355px;
       border: 8px #35cdc8 solid;
       border-radius: 10px; }
   header .form {
@@ -383,9 +590,11 @@ header {
     font-family: "Museo2";
     background-color: #35cdc8;
     border-radius: 10px; }
+    header .form form {
+      padding-bottom: 15px; }
     header .form h2 {
       color: #fff;
-      font-size: 34px;
+      font-size: 30px;
       padding-top: 40px;
       padding-bottom: 20px;
       margin-bottom: 0; }
@@ -427,7 +636,9 @@ header {
 
 @media screen and (max-width: 1199px) {
   header .feature-item p {
-    max-width: unset; } }
+    max-width: unset; }
+  header .form form input {
+    padding: 12px 20px; } }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   header {
@@ -484,11 +695,11 @@ header {
       font-size: 13px; } }
 
 #plans {
-  margin-top: 300px;
+  margin-top: 350px;
   font-family: "Museo2"; }
   #plans h1 {
     font-size: 48px;
-    color: #35cdc8;
+    color: #000;
     padding-bottom: 52px; }
   #plans .plans-item > div {
     background: #31c9cd;
@@ -502,14 +713,15 @@ header {
       font-size: 21px;
       color: #fff;
       text-align: center;
-      padding-bottom: 20px; }
+      padding-bottom: 20px;
+      letter-spacing: 1px; }
     #plans .plans-item > div p {
       font-size: 15px;
       color: #e4e0e0;
       margin: 0 auto;
-      max-width: 70%;
       text-align: center;
-      padding-bottom: 20px; }
+      padding-bottom: 20px;
+      letter-spacing: 1px; }
     #plans .plans-item > div button {
       font-size: 21px; }
   #plans .desription {
@@ -530,9 +742,13 @@ header {
       #plans .plans-item div h3 {
         font-size: 18px; }
       #plans .plans-item div p {
-        font-size: 13px; }
+        font-size: 11px; }
     #plans .desription p br {
       display: none; } }
+
+@media screen and (max-width: 991px) {
+  #plans {
+    margin-top: 50px; } }
 
 @media screen and (max-width: 575px) {
   #plans h1 {
@@ -598,12 +814,13 @@ header {
   border-bottom: 4px #35cdc8 solid;
   padding-top: 95px;
   padding-bottom: 95px; }
+  #about img {
+    max-width: 300px;
+    height: auto; }
   #about h1 {
     font-family: "Museo2";
     font-size: 31px;
     color: #35cdc8; }
-  #about img {
-    max-width: 195px; }
   #about h3 {
     font-family: "Museo1";
     font-size: 15px;
@@ -653,8 +870,11 @@ header {
   #steps h1.head {
     color: #35cdc8;
     font-family: "Museo2";
-    font-size: 45px;
+    font-size: 42px;
     margin-bottom: 0; }
+    #steps h1.head span {
+      color: #000;
+      font-size: 38px; }
   #steps .step-block,
   #steps .step-img {
     margin-top: 120px; }
@@ -675,6 +895,9 @@ header {
       font-family: "Museo2";
       color: #ecf0f2;
       margin-bottom: 0; }
+    #steps .step-block .step-item a.btn {
+      font-size: 18px;
+      font-family: "Museo2"; }
     #steps .step-block button {
       font-size: 21px;
       font-family: "Museo2"; }
@@ -780,7 +1003,8 @@ header {
   #steps .step-item {
     padding-top: 10px;
     padding-bottom: 10px;
-    border: 3px #35cdc8 solid; }
+    border: 3px #35cdc8 solid;
+    width: 100%; }
   #steps .step-block,
   #steps .step-img {
     margin-top: 50px; }
@@ -883,7 +1107,8 @@ header {
     padding-top: 30px;
     padding-bottom: 30px;
     margin-top: 40px;
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    position: relative; }
   #online-q h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
@@ -923,9 +1148,21 @@ header {
         font-family: "Museo0";
         color: #999898;
         font-size: 15; }
-  #online-q button.get-q {
+  #online-q .btn-block button.get-q {
     font-family: 'Open Sans', sans-serif;
-    font-size: 35px; }
+    font-size: 35px;
+    position: absolute;
+    bottom: -35%; }
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #online-q .btn-block button.get-q {
+    bottom: -30%; } }
+
+@media screen and (max-width: 575px) {
+  #online-q .btn-block button.get-q {
+    bottom: -25%;
+    font-size: 20px;
+    left: 6%; } }
 
 @media screen and (max-width: 991px) {
   #online-q .first-name,
@@ -951,7 +1188,8 @@ header {
   border-top: 5px #35cdc8 solid;
   border-bottom: 5px #35cdc8 solid;
   padding-top: 67px;
-  padding-bottom: 67px; }
+  padding-bottom: 67px;
+  margin-top: 60px; }
   #contacts h1 {
     font-family: "Museo2";
     font-size: 45px;
@@ -1046,7 +1284,7 @@ footer {
   background-color: #f2f2f2;
   padding-top: 100px; }
   footer img.logo {
-    max-width: 120px; }
+    max-width: 190px; }
   footer ul li a {
     font-family: "Museo2";
     color: #35cdc8;
@@ -1086,3 +1324,9 @@ footer {
     font-size: 13px; }
   footer .bottom-footer img {
     max-width: 30px; } }
+
+::-webkit-scrollbar {
+  width: 0px;
+  /* remove scrollbar space */
+  background: transparent;
+  /* optional: just make scrollbar invisible */ }

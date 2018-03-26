@@ -37,12 +37,15 @@ $(document).ready(function() {
 var title = document.getElementById('titleText'),
     btn = document.getElementById('buttonSubmit'),
     getBtns = document.getElementsByClassName('paste-btn'),
-    lengthBtns = getBtns.length;
+    hiddenInput = document.getElementById('hidden-input');
+lengthBtns = getBtns.length;
 for (let i = 0; i < lengthBtns; i++) {
     getBtns[i].onclick = function() {
         let titleText = this.getAttribute('data-title');
         let btnText = this.getAttribute('data-btn');
+        let planName = this.getAttribute('data-plan');
         title.innerText = titleText;
         btn.innerText = btnText;
+        hiddenInput.value = planName;
     }
 }

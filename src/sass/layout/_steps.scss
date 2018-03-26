@@ -4,8 +4,12 @@
     h1.head {
         color: $mainTextColor;
         font-family: "Museo2";
-        font-size: 45px;
+        font-size: 42px;
         margin-bottom: 0;
+        span {
+            color: #000;
+            font-size: 38px;
+        }
     }
     .step-block,
     .step-img {
@@ -36,6 +40,10 @@
                 font-family: "Museo2";
                 color: #ecf0f2;
                 margin-bottom: 0;
+            }
+            a.btn {
+                font-size: 18px;
+                font-family: "Museo2";
             }
         }
         button {
@@ -193,6 +201,7 @@
             padding-top: 10px;
             padding-bottom: 10px;
             border: 3px #35cdc8 solid;
+            width: 100%;
         }
         .step-block,
         .step-img {

@@ -5,13 +5,14 @@
     border-bottom: 4px $aboutBorder solid;
     padding-top: 95px;
     padding-bottom: 95px;
+    img {
+        max-width: 300px;
+        height: auto;
+    }
     h1 {
         font-family: "Museo2";
         font-size: 31px;
         color: $mainTextColor;
-    }
-    img {
-        max-width: 195px;
     }
     h3 {
         font-family: "Museo1";

@@ -26,8 +26,26 @@ nav.navbar {
             &:nth-last-child(2) {
                 margin-right: 115px;
             }
+            &.phone-group {
+                a {
+                    color: $mainTextColor;
+                }
+            }
             a {
-                color: $mainTextColor;
+                color: #000;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    nav.navbar {
+        ul.navbar-nav {
+            li {
+                font-size: 16px;
+                &:nth-last-child(2) {
+                    margin-right: 0;
+                }
             }
         }
     }
@@ -35,9 +53,17 @@ nav.navbar {
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     nav.navbar {
+        .navbar-brand {
+            img {
+                max-width: 50%;
+                height: auto;
+                margin: 0 auto;
+                display: block;
+            }
+        }
         ul.navbar-nav {
             li {
-                font-size: 16px;
+                font-size: 12.5px;
                 &:nth-last-child(2) {
                     margin-right: 0;
                 }
